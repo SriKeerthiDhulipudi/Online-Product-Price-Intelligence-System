@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <title>User Profile</title>
+    <style>
+      body {
+        font-family: Arial;
+        background: linear-gradient(135deg, #1e3a8a, #2563eb);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      }
+      .card {
+        background: white;
+        color: black;
+        padding: 30px;
+        border-radius: 15px;
+        text-align: center;
+        width: 350px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+      }
+      button {
+        margin-top: 15px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 8px;
+        background: #2563eb;
+        color: white;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h2>👤 User Profile</h2>
+      <p id="username"></p>
+      <button onclick="goHome()">🏠 Go to Dashboard</button>
+    </div>
+
+    <script>
+      const user = localStorage.getItem("loggedUser");
+      document.getElementById("username").innerHTML = "Username: " + user;
+
+      function goHome() {
+        window.location.href = "index.html";
+      }
+    </script>
+  </body>
+</html>

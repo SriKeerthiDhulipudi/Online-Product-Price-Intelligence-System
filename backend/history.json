@@ -1,0 +1,17 @@
+[
+    {
+        "filename": "b49a7504-49cd-464e-baf4-4f8aea1263af.webp",
+        "product": "remote_control",
+        "confidence": 0.4956928491592407
+    },
+    {
+        "filename": "54df1105-9533-4eb8-989b-dd6613a370ec.jpg",
+        "product": "spotlight",
+        "confidence": 0.47238850593566895
+    },
+    {
+        "filename": "83dcefde-bb26-4355-9c15-6aab54577ec7.webp",
+        "product": "remote_control",
+        "confidence": 0.49569177627563477
+    }
+]
