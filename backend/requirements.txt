@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+python-multipart
+pillow
+sqlalchemy
+requests
+beautifulsoup4
+pytest
+httpx
+python-dotenv
+passlib[bcrypt]
+python-jose[cryptography]
+pydantic[email]
+redis
+psycopg2-binary
+opencv-python
+alembic
