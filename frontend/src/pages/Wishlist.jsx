@@ -52,7 +52,7 @@ function Wishlist() {
           <p className="text-gray-500 mt-2">Start searching for products to add them here.</p>
         </div>
       ) : (
-        <div className="space-y-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {wishlist.map((item, i) => (
             <ProductCard 
               key={`${item.link}-${i}`} 
