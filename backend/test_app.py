@@ -91,7 +91,7 @@ def test_login_failure(setup_database):
     assert response.status_code == 401
 
 def test_history_endpoint(setup_database):
-    response = client.get("/api/history/1?days=30")
+    response = client.get("/api/history/by-id/1?days=30")
     assert response.status_code == 200
     data = response.json()
     assert data["product_id"] == 1
